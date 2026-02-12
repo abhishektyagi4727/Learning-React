@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.hello {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header {
+  text-align: center;
+  padding: 15px;
+}
+
+.cart-name {
+  color: #333;
+  margin: 10px 0 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart-color {
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.mrp {
+  color: #28a745;
+  margin: 10px 0;
+  font-size: 22px;
+}
+
+.btn {
+  height: 45px;
+  width: 80%;
+  border-radius: 25px;
+  font-size: 16px;
+  border: none;
+  background: linear-gradient(45deg, #ff7b00, #ff5200);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #ff5200, #ff2e00);
+  transform: scale(1.05);
+}
