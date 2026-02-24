@@ -19,6 +19,8 @@ import Data from "./data";
 import Array from "./Array";
 import Demo from "./Demo";
 import Cart from "./Cart";
+import Api from "./Api";
+import Hello from "./hello";
 
 function App() {
   function sayHello() {
@@ -90,7 +92,9 @@ function App() {
         }
       </Demo> */}
 
-      <Cart arr={arr} />
+      {/* <Cart arr={arr} /> */}
+      {/* <Api /> */}
+      <Hello />
     </>
   );
 }
