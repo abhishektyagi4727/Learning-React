@@ -60,6 +60,14 @@
 //   }
 //   console.log("Render App Component");
 import Form2 from "./Form2";
+import MemoDemo from "./MemoDemo";
+import UseCreate from "./UseCreate";
+import UseMemoDemo from "./UseMemoDemo";
+import ReactRouterDom from "./ReactRouterDom";
+import ContextApi1 from "./ContextApi1";
+import Counter from "./Counter";
+import UseCallBack from "./UseCallBack";
+import UseCallBackDemo from "./UseCallBackDemo";
 function App() {
   return (
     <>
@@ -109,9 +117,16 @@ function App() {
       {/* <button onClick={() => updateName()}>Parent Button</button> */}
       {/* <hr></hr> */}
       {/* <StudentClassComp name={name} /> */}
-      <Form2 />
+      {/* <Form2 /> */}
+      {/* <MemoDemo /> */}
+      {/* <UseMemoDemo /> */}
+      {/* <UseCreate /> */}
+      {/* <ReactRouterDom /> */}
+      {/* <ContextApi1 name="helloo Abhsihek" /> */}
+      {/* <Counter></Counter> */}
+      {/* <UseCallBack /> */}
+      <UseCallBackDemo />
     </>
   );
 }
-
 export default App;
